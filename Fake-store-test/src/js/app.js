@@ -40,7 +40,9 @@ const renderProducts = (productsToRender) => {
         ?.map((item) => {
           return `
             <div class="card card-side bg-base-100 shadow-xl">
-              <img src=${item.image} class="w-[300px] h-[200px] object-cover mb-2"/>
+            <figure>
+            <img src=${item.image} class="w-[300px] h-[200px] object-cover mb-2"/>
+            </figure>  
               <div class="card-body">
                 <h2 class="card-title">${item.title}</h2>
                 <p>${item.description}</p>
