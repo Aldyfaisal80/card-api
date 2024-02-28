@@ -94,7 +94,7 @@ const renderProducts = (products) => {
                     return `
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure>
-                    <img src=${item.image} class="h-[200px]"> 
+                    <img src=${item.image} class="h-[200px] "> 
                     </figure>
                     <div class="card-body">
                     <h2 class="card-title">${item.title}</h2>
